@@ -1,0 +1,6 @@
+
+resilience4j.timelimiter:
+  instances:
+    foo:
+      timeoutDuration: 1s
+      cancelRunningFuture: true
