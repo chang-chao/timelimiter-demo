@@ -20,7 +20,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation('org.springframework.boot:spring-boot-starter-aop')
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	implementation("io.github.resilience4j:resilience4j-spring-boot3:${resilience4jVersion}")
+	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
